@@ -1,1 +1,1 @@
-## TWRP device tree for Honor 5x (kiwi) ##
+## PitchBlackRecoveryProject device tree for Honor 5x (kiwi) ##
