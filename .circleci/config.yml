@@ -12,6 +12,7 @@ jobs:
       BUILD_LUNCH: 'omni_kiwi-eng'
       # TEST_BUILD: 'true'
       PB_OFFICIAL: 'true'
+      EXTRA_CMD: "rm -rf vendor/pb && git clone https://github.com/PitchBlackRecoveryProject/vendor_pb -b Ust vendor/pb --depth=1"
       CHANGELOG: |
         - Final build v2.X
     working_directory: /home/builder/pitchblack
