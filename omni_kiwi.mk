@@ -12,9 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/omni/config/gsm.mk)
-
 $(call inherit-product, device/huawei/kiwi/full_kiwi.mk)
 
 # Inherit some common Omni stuff.
