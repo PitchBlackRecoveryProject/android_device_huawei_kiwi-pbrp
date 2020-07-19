@@ -18,6 +18,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 $(call inherit-product, device/huawei/kiwi/full_kiwi.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 PRODUCT_NAME := omni_kiwi
