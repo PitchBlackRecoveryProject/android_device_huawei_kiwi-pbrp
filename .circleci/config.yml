@@ -6,7 +6,7 @@ jobs:
     environment:
       MANIFEST_BRANCH: 'android-9.0'
       VERSION: '2.9.1'
-      MAINTAINER: "PBRP TEAM"
+      MAINTAINER: "PBRP TEAM (@hpnightowl)"
       VENDOR: 'huawei'
       CODENAME: 'kiwi'
       BUILD_LUNCH: 'omni_kiwi-eng'
