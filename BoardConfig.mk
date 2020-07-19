@@ -61,6 +61,8 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/recovery/kernel
 #TARGET_KERNEL_CONFIG := kiwi-64_defconfig
 
 # Partitions
+# Recovery
+BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 # /proc/partitions * 2 * BLOCK_SIZE (512) = size in bytes
@@ -110,6 +112,3 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
-
-#OFFICIAL
-PB_OFFICIAL := true
