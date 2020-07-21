@@ -25,6 +25,10 @@ PRODUCT_RELEASE_NAME := kiwi
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
+# Encryption
+PRODUCT_PACKAGES += \
+    libcryptfs_hw
+    
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
